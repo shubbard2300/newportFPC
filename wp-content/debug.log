@@ -1,0 +1,1286 @@
+[19-Aug-2025 03:38:16 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:38:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_about_wid...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/about_widget.php(13): register_widget('penci_about_wid...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_about_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:38:19 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:38:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_about_wid...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/about_widget.php(13): register_widget('penci_about_wid...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_about_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:38:37 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:38:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_about_wid...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/about_widget.php(13): register_widget('penci_about_wid...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_about_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:43:06 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:43:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:45:46 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:45:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:46:16 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:46:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:47:34 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:47:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:50:21 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:50:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:50:52 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:50:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:50:54 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:50:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:50:54 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:50:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:50:55 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:50:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-admin/admin.php(35): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/wp-admin/index.php(10): require_once('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:09 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:09 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:09 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:10 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:10 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:11 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:12 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:15 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:15 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:16 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:16 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:16 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:16 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:16 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:20 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:20 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:20 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:20 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:20 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:20 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:25 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:25 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:25 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:25 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:26 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:26 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:26 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:27 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:27 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:38 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:38 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:51:44 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:51:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:57:53 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:57:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:58:13 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:58:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:59:50 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:59:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 03:59:58 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 03:59:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 04:00:10 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 04:00:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 04:00:16 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 04:00:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 04:00:31 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Aug-2025 04:00:35 UTC] Automatic updates starting...
+[19-Aug-2025 04:00:36 UTC]   Automatic plugin updates starting...
+[19-Aug-2025 04:00:36 UTC]     Upgrading plugin 'contact-form-7'...
+[19-Aug-2025 04:00:37 UTC]     Plugin 'contact-form-7' has been upgraded.
+[19-Aug-2025 04:00:39 UTC]     Scraping home page...
+[19-Aug-2025 04:00:39 UTC] '###### wp_scraping_result_start:e71b3891f31d3116ea934360f011617e ######
+true
+###### wp_scraping_result_end:e71b3891f31d3116ea934360f011617e ######
+'
+[19-Aug-2025 04:00:39 UTC]     The update for 'contact-form-7' has no fatal errors.
+[19-Aug-2025 04:00:39 UTC]     Upgrading plugin 'https-redirection'...
+[19-Aug-2025 04:00:40 UTC]     Plugin 'https-redirection' has been upgraded.
+[19-Aug-2025 04:00:42 UTC]     Scraping home page...
+[19-Aug-2025 04:00:42 UTC] '###### wp_scraping_result_start:84b00efba1183f50aac4404175dc89fd ######
+true
+###### wp_scraping_result_end:84b00efba1183f50aac4404175dc89fd ######
+'
+[19-Aug-2025 04:00:42 UTC]     The update for 'https-redirection' has no fatal errors.
+[19-Aug-2025 04:00:42 UTC]     Upgrading plugin 'google-calendar-events'...
+[19-Aug-2025 04:00:44 UTC]     Plugin 'google-calendar-events' has been upgraded.
+[19-Aug-2025 04:00:46 UTC]     Scraping home page...
+[19-Aug-2025 04:00:47 UTC] '###### wp_scraping_result_start:8f509f5ef14bb2b0b164f60b28072786 ######
+true
+###### wp_scraping_result_end:8f509f5ef14bb2b0b164f60b28072786 ######
+'
+[19-Aug-2025 04:00:47 UTC]     The update for 'google-calendar-events' has no fatal errors.
+[19-Aug-2025 04:00:47 UTC]     Upgrading plugin 'js_composer'...
+[19-Aug-2025 04:00:47 UTC]     Plugin 'js_composer' has been upgraded.
+[19-Aug-2025 04:00:49 UTC]     Scraping home page...
+[19-Aug-2025 04:00:49 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 04:00:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-blog-header.php(13): require_once('/home/newportfp...')
+#14 /home/newportfpc/newportfpc.org/index.php(17): require('/home/newportfp...')
+#15 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 04:00:50 UTC] '###### wp_scraping_result_start:4f44da236c250d4b9f73dca2804d1c27 ######
+{"type":"1","message":"Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in wp-includes\\/class-wp-widget-factory.php on line 62 and at least 2 expected in wp-includes\\/class-wp-widget.php:163\\nStack trace:\\n#0 wp-includes\\/class-wp-widget-factory.php(62): WP_Widget->__construct()\\n#1 wp-includes\\/widgets.php(123): WP_Widget_Factory->register(\'penci_facebook_...\')\\n#2 wp-content\\/themes\\/soledad\\/inc\\/widgets\\/facebook_widget.php(13): register_widget(\'penci_facebook_...\')\\n#3 wp-includes\\/class-wp-hook.php(324): penci_facebook_load_widget(\'\')\\n#4 wp-includes\\/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)\\n#5 wp-includes\\/plugin.php(517): WP_Hook->do_action(Array)\\n#6 wp-includes\\/widgets.php(1870): do_action(\'widgets_init\')\\n#7 wp-includes\\/class-wp-hook.php(324): wp_widgets_init(\'\')\\n#8 wp-includes\\/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)\\n#9 wp-includes\\/plugin.php(517): WP_Hook->do_action(Array)\\n#10 wp-settings.php(727): do_action(\'init\')\\n#11 wp-config.php(123): require_once(\'\\/home\\/newportfp...\')\\n#12 wp-load.php(50): require_once(\'\\/home\\/newportfp...\')\\n#13 wp-blog-header.php(13): require_once(\'\\/home\\/newportfp...\')\\n#14 index.php(17): require(\'\\/home\\/newportfp...\')\\n#15 {main}\\n  thrown","file":"wp-includes\\/class-wp-widget.php","line":"163"}
+###### wp_scraping_result_end:4f44da236c250d4b9f73dca2804d1c27 ######
+'
+[19-Aug-2025 04:00:50 UTC]     The update for 'js_composer' contained a fatal error. The previously installed version has been restored.
+[19-Aug-2025 04:00:50 UTC]   Automatic plugin updates complete.
+[19-Aug-2025 04:00:50 UTC] Automatic updates complete.
+[19-Aug-2025 04:00:51 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 04:00:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-login.php(12): require('/home/newportfp...')
+#14 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163
+[19-Aug-2025 04:00:55 UTC] Cron reschedule event error for hook: give_thricely_scheduled_events, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thricely","args":[],"interval":259200}
+[19-Aug-2025 04:00:56 UTC] Cron reschedule event error for hook: give_monthly_scheduled_events, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"monthly","args":[],"interval":2635200}
+[19-Aug-2025 04:00:56 UTC] Cron reschedule event error for hook: penci_reset_track_data_monthly, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"monthly","args":[],"interval":2635200}
+[19-Aug-2025 04:01:55 UTC] PHP Warning:  require(/home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php): Failed to open stream: No such file or directory in /home/newportfpc/newportfpc.org/wp-settings.php on line 279
+[19-Aug-2025 04:01:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php' (include_path='.:') in /home/newportfpc/newportfpc.org/wp-settings.php:279
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once()
+#1 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#2 /home/newportfpc/newportfpc.org/wp-login.php(12): require('/home/newportfp...')
+#3 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-settings.php on line 279
+[19-Aug-2025 04:02:12 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>soledad</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /home/newportfpc/newportfpc.org/wp-includes/functions.php on line 6121
+[19-Aug-2025 04:02:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Widget::__construct(), 0 passed in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php on line 62 and at least 2 expected in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php:163
+Stack trace:
+#0 /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget-factory.php(62): WP_Widget->__construct()
+#1 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(123): WP_Widget_Factory->register('penci_facebook_...')
+#2 /home/newportfpc/newportfpc.org/wp-content/themes/soledad/inc/widgets/facebook_widget.php(13): register_widget('penci_facebook_...')
+#3 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): penci_facebook_load_widget('')
+#4 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/newportfpc/newportfpc.org/wp-includes/widgets.php(1870): do_action('widgets_init')
+#7 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#8 /home/newportfpc/newportfpc.org/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 /home/newportfpc/newportfpc.org/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home/newportfpc/newportfpc.org/wp-settings.php(727): do_action('init')
+#11 /home/newportfpc/newportfpc.org/wp-config.php(123): require_once('/home/newportfp...')
+#12 /home/newportfpc/newportfpc.org/wp-load.php(50): require_once('/home/newportfp...')
+#13 /home/newportfpc/newportfpc.org/wp-login.php(12): require('/home/newportfp...')
+#14 {main}
+  thrown in /home/newportfpc/newportfpc.org/wp-includes/class-wp-widget.php on line 163

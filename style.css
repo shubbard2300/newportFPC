@@ -1,0 +1,213 @@
+/*
+Theme Name: Newport FPC
+Description: A custom WordPress theme for Newport First Presbyterian Church
+Version: 1.0
+Author: Eye Appeal Inc
+*/
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.site-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.site-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.site-description {
+    text-align: center;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Navigation */
+.main-navigation {
+    background-color: #34495e;
+    padding: 0.5rem 0;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-menu li {
+    margin: 0 1rem;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #2c3e50;
+    border-radius: 4px;
+}
+
+/* Main Content */
+.site-main {
+    padding: 2rem 0;
+    min-height: 60vh;
+}
+
+/* Post Styles */
+article {
+    background: white;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.entry-header {
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 1rem;
+}
+
+.entry-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.entry-title a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.entry-title a:hover {
+    color: #3498db;
+}
+
+.entry-meta {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.entry-content {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.entry-footer {
+    border-top: 1px solid #e9ecef;
+    padding-top: 1rem;
+}
+
+.read-more {
+    background-color: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .site-title {
+        font-size: 2rem;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-menu li {
+        margin: 0.25rem 0;
+    }
+    
+    article {
+        padding: 1rem;
+    }
+    
+    .entry-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+/* WordPress Specific */
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption-text {
+    font-style: italic;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.alignleft {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
